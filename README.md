@@ -12,3 +12,6 @@ Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos
 
 
 ## Data files: Descriptions
+
+### MRS_eLife_Metadata_201025.csv
+Contains the metadata for all isoaltes. 
