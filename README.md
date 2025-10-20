@@ -21,12 +21,12 @@ Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS
 > study_id: General participant identifier
 > mrs_study_id: Unique identifier of isolate sent for DBLa sequencing
 > age_groups: Age group of participant 
-> pf_positive: Microscopic P. falciparum status (i.e., Para+ = P. falciparum positive; Para- = P. falciparum negative)
+> pf_positive: Microscopic P. falciparum status (i.e., Para+ = Pf positive; Para- = Pf negative)
 > ParasiteuL: Microscopic P. falciparum density (parasite/uL of blood)
-> DBLa_ParaPos: Success of DBLa sequencing for all isolates positive for P. falciparum by microscopy
+> DBLa_ParaPos: DBLa sequencing success for all isolates positive for P. falciparum by microscopy
 > DBLa_rep_size: Total number of DBLα types detected for the isolate (i.e. repertoire size)
-> DBLa_upsA_rep_size: Total number of upsA DBLα types detected for the isolate (i.e. upsA repertoire size)
-> DBLa_upsBC_rep_size: Total number of non-upsA DBLα types detected for the isolate (i.e. non-upsA repertoire size)
+> DBLa_upsA_rep_size: Total number of upsA DBLα types (i.e. upsA repertoire size)
+> DBLa_upsBC_rep_size: Total number of non-upsA DBLα types (i.e. non-upsA repertoire size)
 > MOI: multiplicity of infection based on varcoding
 > MOI_group: MOI groupings, MOI = 1 or MOI > 1
 > ```
