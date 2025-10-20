@@ -30,3 +30,19 @@ Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS
 > MOI: multiplicity of infection based on varcoding
 > MOI_group: MOI groupings, MOI = 1 or MOI > 1
 > ```
+
+### MRS_eLife_PTS_201025.csv
+PTS for isolate comparisons within the 2012, 2014, 2015, and 2017 MRS surveys.  
+> ```
+> mrs_study_id1: Unique identifier of isolate sent for DBLa sequencing
+> mrs_study_id2: Unique identifier of isolate sent for DBLa sequencing
+> PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (all DBLα types)
+> upsA_PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (upsA DBLα types)
+> upsBC_PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (non-upsA DBLα types)
+> survey_year1: Survey year for mrs_study_id1
+> study_id1: General participant identifier for mrs_study_id1
+> MOI1: multiplicity of infection based on varcoding for mrs_study_id1
+> survey_year2: Survey year for mrs_study_id2
+> study_id2: General participant identifier for mrs_study_id2
+> MOI2: multiplicity of infection based on varcoding for mrs_study_id2
+> ```
