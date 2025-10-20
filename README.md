@@ -9,10 +9,23 @@ Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos
 
 * _P. falciparum var_ DBLα PCR: [Pfalciparum_varDBLalpha_PCR](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR)
 > Note: This study used version 1 (v1) of DBLαAF and DBLαBR primers. For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing.
-> ```
+
 
 
 ## Data files: Descriptions
 
 ### MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS surveys.  
+> ```
+> survey_year: Survey year during which the participants were surveyed
+> study_id: General participant identifier
+> mrs_study_id: Identifier of isolate sent for DBLa sequencing
+> age_groups: Age group of participant 
+> pf_positive: Microscopic _P. falciparum_ status (i.e., Para+ = _P. falciparum_ positive; Para- = _P. falciparum_ negative)
+> ParasiteuL: Microscopic _P. falciparum_ density (parasite/uL of blood)
+> DBLa_ParaPos: Success of isoalte _varcoding_
+> DBLa_rep_size: Total number of DBLα types detected for the isolate (i.e. repertoire size)
+> DBLa_upsA_rep_size: Total number of upsA DBLα types detected for the isolate (i.e. upsA repertoire size)
+> DBLa_upsBC_rep_size: Total number of non-upsA DBLα types detected for the isolate (i.e. non-upsA repertoire size)
+> MOI: multiplicity of infection based on _varcoding_
+> MOI_group: MOI groupings, MOI = 1 or MOI > 1
