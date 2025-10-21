@@ -2,4 +2,6 @@
 
 This repository is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).  
 
-Users may share and adapt the data for non-commercial purposes, with **proper attribution** and **prior approval**.
+Redistribution or reuse of these data requires **proper attribution** and **prior approval**. 
+
+Researchers interested in further use or collaboration should contact the Malaria Reservoir Study Team, represented by the corresponding author, Prof. Karen Day (karen.day@unimelb.edu.au).
