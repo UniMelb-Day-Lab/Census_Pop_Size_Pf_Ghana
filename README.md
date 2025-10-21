@@ -4,10 +4,11 @@
 
 All data associated with this study are available in the accompanying GitHub repository (Census_Pop_Size_Pf_Ghana) and are provided for **non-commercial research purposes only**.
 
-Redistribution or reuse of these data requires **proper attribution** and **prior approval**. Researchers interested in further use or collaboration should contact the Malaria Reservoir Study Team, represented by the corresponding author, Prof. Karen Day (karen.day@unimelb.edu.au).
-
 If you use data from this work, please cite:
 Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos DC, Deed SL, Ghansah A, Bangre O, Oduro AR, Koram KA, Pascual M, Day KP. (2025) Measuring changes in Plasmodium falciparum census population size in response to sequential malaria control interventions. eLife 12: RP91411 [https://elifesciences.org/reviewed-preprints/91411v3](https://doi.org/10.7554/eLife.91411.3)
+
+
+Redistribution or reuse of these data requires **proper attribution** and **prior approval**. Researchers interested in further use or collaboration should contact the Malaria Reservoir Study Team, represented by the corresponding author, Prof. Karen Day (karen.day@unimelb.edu.au).
 
 
 ## Genotyping Protocols used in this study
