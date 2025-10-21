@@ -32,8 +32,8 @@ Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS
 > ```
 
 ### MRS_eLife_PTS_201025.csv
-PTS for isolate comparisons within the 2012, 2014, 2015, and 2017 MRS surveys.  
-> ```
+Contains the estiamted genetic similarity calculated between all pairs of isolates in each survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS) 
+
 > mrs_study_id1: Unique identifier of isolate sent for DBLa sequencing
 > mrs_study_id2: Unique identifier of isolate sent for DBLa sequencing
 > PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (all DBLα types)
@@ -45,4 +45,4 @@ PTS for isolate comparisons within the 2012, 2014, 2015, and 2017 MRS surveys.
 > survey_year2: Survey year for mrs_study_id2
 > study_id2: General participant identifier for mrs_study_id2
 > MOI2: multiplicity of infection based on varcoding for mrs_study_id2
-> ```
+
