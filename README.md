@@ -47,19 +47,20 @@ This dataset can be used to generate the source data for the follwing figures an
 ### MRS_eLife_PTS_201025.csv
 Contains the estimated genetic similarity between all pairs of isolates in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS).
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
+* **mrs_study_id1**: Unique identifier of isolate sent for DBLa sequencing  
+* **mrs_study_id2**: Unique identifier of isolate sent for DBLa sequencing  
+* **PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (all DBLα types)  
+* **upsA_PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (upsA DBLα types)  
+* **upsBC_PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (non-upsA DBLα types)  
+* **survey_year1**: Survey year for **mrs_study_id1**  
+* **study_id1**: General participant identifier for **mrs_study_id1**  
+* **MOI1**: Multiplicity of infection based on varcoding for **mrs_study_id1**  
+* **survey_year2**: Survey year for **mrs_study_id2**  
+* **study_id2**: General participant identifier for **mrs_study_id2**  
+* **MOI2**: Multiplicity of infection based on varcoding for **mrs_study_id2** 
 
-* mrs_study_id1: Unique identifier of isolate sent for DBLa sequencing
-* mrs_study_id2: Unique identifier of isolate sent for DBLa sequencing
-* PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (all DBLα types)
-* upsA_PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (upsA DBLα types)
-* upsBC_PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (non-upsA DBLα types)
-* survey_year1: Survey year for mrs_study_id1
-* study_id1: General participant identifier for mrs_study_id1
-* MOI1: multiplicity of infection based on varcoding for mrs_study_id1
-* survey_year2: Survey year for mrs_study_id2
-* study_id2: General participant identifier for mrs_study_id2
-* MOI2: multiplicity of infection based on varcoding for mrs_study_id2
-
-This dataset can be used to generate the source data for:
-* Figure 2 A and Figure 2 B
-* Figure 2 - figure supplement 1 
+This dataset can be used to generate the source data for the follwing figures:
+* **Figures**
+ * Figure 2 A (i.e.,upsA_PAS_score vs. survey_year1)
+ * Figure 2 B (i.e.,upsBC_PAS_score vs. survey_year1)
+ * Figure 2 - figure supplement 1 (i.e.,upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
