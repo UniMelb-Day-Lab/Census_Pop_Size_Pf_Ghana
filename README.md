@@ -16,29 +16,32 @@ Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos
 
 ### MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS surveys.  
+* **survey_year**: Survey year during which the participants were surveyed  
+* **study_id**: General participant identifier  
+* **mrs_study_id**: Unique identifier of isolate sent for DBLa sequencing  
+* **age_groups**: Age group of participant  
+* **pf_positive**: Microscopic *P. falciparum* status (i.e., Para+ = Pf positive; Para− = Pf negative)  
+* **ParasiteuL**: Microscopic *P. falciparum* density (parasites/μL of blood)  
+* **DBLa_ParaPos**: DBLa sequencing success for all isolates positive for *P. falciparum* by microscopy  
+* **DBLa_rep_size**: Total number of DBLα types detected for the isolate (i.e., repertoire size)  
+* **DBLa_upsA_rep_size**: Total number of upsA DBLα types (i.e., upsA repertoire size)  
+* **DBLa_upsBC_rep_size**: Total number of non-upsA DBLα types (i.e., non-upsA repertoire size)  
+* **MOI**: Multiplicity of infection based on varcoding  
+* **MOI_group**: MOI groupings, MOI = 1 or MOI > 1  
 
-* survey_year: Survey year during which the participants were surveyed
-* study_id: General participant identifier
-* mrs_study_id: Unique identifier of isolate sent for DBLa sequencing
-* age_groups: Age group of participant
-* pf_positive: Microscopic P. falciparum status (i.e., Para+ = Pf positive; Para- = Pf negative)
-* ParasiteuL: Microscopic P. falciparum density (parasite/uL of blood)
-* DBLa_ParaPos: DBLa sequencing success for all isolates positive for P. falciparum by microscopy
-* DBLa_rep_size: Total number of DBLα types detected for the isolate (i.e. repertoire size)
-* DBLa_upsA_rep_size: Total number of upsA DBLα types (i.e. upsA repertoire size)
-* DBLa_upsBC_rep_size: Total number of non-upsA DBLα types (i.e. non-upsA repertoire size)
-* MOI: multiplicity of infection based on varcoding
-* MOI_group: MOI groupings, MOI = 1 or MOI > 1
+This dataset can be used to generate the source data for the follwing figures and tables:
+* **Figures**
+  * Figure 1 B (see Fig1_B_all_prev.csv)
+  * Figure 1 C (see Fig1_C_age_prev.csv)
+  * Figure 3 - figure supplement 1 (i.e.,DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
+  * Figure 4 A (see Fig4_A_all_census.csv)
+  * Figure 4 B (see Fig4_B_age_census.csv)
+  * Figure 4 C (see Fig4_C_all_prev_census.csv)
+  * Figure 4 D (Fig4_D_age_prev_census.csv)
 
-This dataset can be used to generate the source data for:
-* Figure 1 B (see Fig1_B_all_prev.csv)
-* Figure 1 C (see Fig1_C_age_prev.csv)
-* Figure 3 - figure supplement 1 (i.e.,DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
-* Figure 4 A (see Fig4_A_all_census.csv)
-* Figure 4 B (see Fig4_B_age_census.csv)
-* Figure 4 C (see Fig4_C_all_prev_census.csv)
-* Figure 4 D (Fig4_D_age_prev_census.csv)
-  
+* **Tables**
+  * Appendix 1-table 1
+  * Appendix 1-table 2
 
 
 ### MRS_eLife_PTS_201025.csv
