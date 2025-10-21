@@ -37,13 +37,13 @@ Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and
 
 This dataset can be used to generate the source data for the following figures and tables:
 * **Figures**
-  * Figure 1 B (see Fig1_B_all_prev.csv)
-  * Figure 1 C (see Fig1_C_age_prev.csv)
+  * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
+  * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
   * Figure 3 - figure supplement 1 (i.e.,DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
-  * Figure 4 A (see Fig4_A_all_census.csv)
-  * Figure 4 B (see Fig4_B_age_census.csv)
-  * Figure 4 C (see Fig4_C_all_prev_census.csv)
-  * Figure 4 D (Fig4_D_age_prev_census.csv)
+  * Figure 4 A (see Source Data: Fig4_A_all_census.csv)
+  * Figure 4 B (see Source Data: Fig4_B_age_census.csv)
+  * Figure 4 C (see Source Data: Fig4_C_all_prev_census.csv)
+  * Figure 4 D (see Source Data: Fig4_D_age_prev_census.csv)
 
 * **Tables**
   * Appendix 1-table 1
@@ -81,13 +81,13 @@ Contains the frequency and proportion of all DBLA types in each MRS survey (2012
 
 This dataset can be used to generate the source data for the following figures and tables:
 * **Figures**
-  * Figure 5 A and B (see Fig5_A_B_richness_prev.csv)
+  * Figure 5 A and B (see Source Data: Fig5_A_B_richness_prev.csv)
   * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
   * Figure 6 C and D (i.e., 2012_freqbin, 2014_freqbin, 2015_freqbin, and 2017_freqbin vs. DBLa_type, by Ups)
   * Figure 6 E and F (i.e., survival curves include only those DBLα types that were seen at baseline in 2012 (2012_freq; 2012freq_bin category))
   * Figure 6 - figure supplement 1 (i.e., frequency of 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. proportion, by Ups)
 
 * **Tables**
-  * Appendix 1-table 3 (also see Fig5_A_B_richness_prev.csv)
+  * Appendix 1-table 3 (also see Source Data: Fig5_A_B_richness_prev.csv)
 
 
