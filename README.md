@@ -61,9 +61,9 @@ PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the
 
 This dataset can be used to generate the source data for the following figures:
 * **Figures**
- * Figure 2 A (i.e.,upsA_PAS_score, plotted by survey_year1)
- * Figure 2 B (i.e.,upsBC_PAS_score, plotted by survey_year1)
- * Figure 2 - figure supplement 1 (i.e.,upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
+  * Figure 2 A (i.e.,upsA_PAS_score, plotted by survey_year1)
+  * Figure 2 B (i.e.,upsBC_PAS_score, plotted by survey_year1)
+  * Figure 2 - figure supplement 1 (i.e.,upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
 
 
 ### MRS_eLife_DBLatypes_201025.csv
@@ -73,12 +73,14 @@ Contains the frequency and proportion of all DBLA types in each MRS survey (2012
 * **2012_freq/2014_freq/2015_freq/2017_freq**: Frequency or the number of times (i.e., number of isolates) a DBLα type was observed in each MRS survey (2012, 2014, 2015, and 2017)
 * **2012_freqbin/2014_freqbin/2015_freqbin/2017_freqbin**: Frequency category (i.e., 0, 1, 2-10, 11-20, > 20 isolates) for the DBLα types observed in each MRS survey (2012, 2014, 2015, and 2017)
 
-This dataset can be used to generate the source data for the following figures and tables: 
+This dataset can be used to generate the source data for the following figures and tables:
 * **Figures**
- * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
- * Figure 6 C and D (i.e., 2012_freqbin, 2014_freqbin, 2015_freqbin, and 2017_freqbin vs. DBLa_type, by Ups)
- * Figure 6 E and F (i.e., survival curves include only those DBLα types that were seen at baseline in 2012 (2012_freq/2012freq_bin))
- * Figure 6 - figure supplement 1 (i.e., frequency of 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. proportion, by Ups)
+  * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
+  * Figure 6 C and D (i.e., 2012_freqbin, 2014_freqbin, 2015_freqbin, and 2017_freqbin vs. DBLa_type, by Ups)
+  * Figure 6 E and F (i.e., survival curves include only those DBLα types that were seen at baseline in 2012 (2012_freq, 2012freq_bin)))
+  * Figure 6 - figure supplement 1 (i.e., frequency of 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. proportion, by Ups)
 
 * **Tables**
- * Appendix 1-table 3 
+  * Appendix 1-table 3
+
+
