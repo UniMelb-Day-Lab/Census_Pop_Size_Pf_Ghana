@@ -1,4 +1,4 @@
-# Measuring changes in Plasmodium falciparum census population size in response to sequential malaria control interventions
+# Measuring changes in _Plasmodium falciparum_ census population size in response to sequential malaria control interventions
 
 ## Data Availability & Citation Statement
 
