@@ -77,7 +77,7 @@ This dataset can be used to generate the source data for the following figures a
 * **Figures**
   * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
   * Figure 6 C and D (i.e., 2012_freqbin, 2014_freqbin, 2015_freqbin, and 2017_freqbin vs. DBLa_type, by Ups)
-  * Figure 6 E and F (i.e., survival curves include only those DBLα types that were seen at baseline in 2012 (2012_freq, 2012freq_bin)))
+  * Figure 6 E and F (i.e., survival curves include only those DBLα types that were seen at baseline in 2012 (2012_freq; 2012freq_bin category))
   * Figure 6 - figure supplement 1 (i.e., frequency of 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. proportion, by Ups)
 
 * **Tables**
