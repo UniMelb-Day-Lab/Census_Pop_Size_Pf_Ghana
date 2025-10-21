@@ -1,6 +1,6 @@
 # Measuring changes in Plasmodium falciparum census population size in response to sequential malaria control interventions
 
-If you use data or code from this work, please cite:
+If you use data from this work, please cite:
 
 Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos DC, Deed SL, Ghansah A, Bangre O, Oduro AR, Koram KA, Pascual M, Day KP. (2025) Measuring changes in Plasmodium falciparum census population size in response to sequential malaria control interventions. eLife 12: RP91411 [https://elifesciences.org/reviewed-preprints/91411v3](https://doi.org/10.7554/eLife.91411.3)
 
@@ -17,7 +17,7 @@ Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos
 ### MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS surveys.  
 
-*** survey_year:** Survey year during which the participants were surveyed
+* survey_year: Survey year during which the participants were surveyed
 * study_id: General participant identifier
 * mrs_study_id: Unique identifier of isolate sent for DBLa sequencing
 * age_groups: Age group of participant
@@ -30,9 +30,19 @@ Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS
 * MOI: multiplicity of infection based on varcoding
 * MOI_group: MOI groupings, MOI = 1 or MOI > 1
 
+This dataset can be used to generate the source data for:
+* Figure 1 B (see Fig1_B_all_prev.csv)
+* Figure 1 C (see Fig1_C_age_prev.csv)
+* Figure 3 - figure supplement 1 (i.e.,DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
+* Figure 4 A (see Fig4_A_all_census.csv)
+* Figure 4 B (see Fig4_B_age_census.csv)
+* Figure 4 C (see Fig4_C_all_prev_census.csv)
+* Figure 4 D (Fig4_D_age_prev_census.csv)
+  
+
 
 ### MRS_eLife_PTS_201025.csv
-Contains the estiamted genetic similarity calculated between all pairs of isolates in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS).
+Contains the estimated genetic similarity between all pairs of isolates in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS).
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
 
 * mrs_study_id1: Unique identifier of isolate sent for DBLa sequencing
@@ -47,3 +57,6 @@ PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the
 * study_id2: General participant identifier for mrs_study_id2
 * MOI2: multiplicity of infection based on varcoding for mrs_study_id2
 
+This dataset can be used to generate the source data for:
+* Figure 2 A and Figure 2 B
+* Figure 2 - figure supplement 1 
