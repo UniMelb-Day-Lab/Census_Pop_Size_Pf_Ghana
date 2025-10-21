@@ -17,7 +17,7 @@ Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos
 ### MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS surveys.  
 
-* survey_year: Survey year during which the participants were surveyed
+*** survey_year:** Survey year during which the participants were surveyed
 * study_id: General participant identifier
 * mrs_study_id: Unique identifier of isolate sent for DBLa sequencing
 * age_groups: Age group of participant
@@ -32,7 +32,9 @@ Metadata for all participants surveyed during the 2012, 2014, 2015, and 2017 MRS
 
 
 ### MRS_eLife_PTS_201025.csv
-Contains the estiamted genetic similarity calculated between all pairs of isolates in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS; PTS = number of shared DBLα types / (mrs_study_id1 repertoire size + mrs_study_id2 repertoire size)).
+Contains the estiamted genetic similarity calculated between all pairs of isolates in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS).
+PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
+
 * mrs_study_id1: Unique identifier of isolate sent for DBLa sequencing
 * mrs_study_id2: Unique identifier of isolate sent for DBLa sequencing
 * PAS_score: PTS score between mrs_study_id1 and mrs_study_id2 (all DBLα types)
