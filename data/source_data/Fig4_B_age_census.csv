@@ -1,0 +1,17 @@
+"age_groups","survey_year","census_CI_lower","census_pop_size","census_CI_upper"
+"Children (1-5 years)",2012,402,495,595
+"Children (6-10 years)",2012,908,1035,1166
+"Adolescents (11-20 years)",2012,579,683,792
+"Adults (>20 years)",2012,278,338,401
+"Children (1-5 years)",2014,43,80,125
+"Children (6-10 years)",2014,247,318,397
+"Adolescents (11-20 years)",2014,200,256,315
+"Adults (>20 years)",2014,48,76,111
+"Children (1-5 years)",2015,39,62,88
+"Children (6-10 years)",2015,311,378,452
+"Adolescents (11-20 years)",2015,250,313,382
+"Adults (>20 years)",2015,119,155,195
+"Children (1-5 years)",2017,54,90,132
+"Children (6-10 years)",2017,642,750,861
+"Adolescents (11-20 years)",2017,734,827,921
+"Adults (>20 years)",2017,365,420,478
