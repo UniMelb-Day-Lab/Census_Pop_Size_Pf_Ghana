@@ -22,7 +22,7 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 
 
 
-## Sequence analysis 
+## Sequence analysis pipelines
 
 * Raw DBLα sequence tags were cleaned, clustered, and classified (upsA and non-upsA) using the following bioinformatic pipelines:
   * [DBLaCleaner](https://github.com/UniMelb-Day-Lab/DBLaCleaner)
