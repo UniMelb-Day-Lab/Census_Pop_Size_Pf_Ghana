@@ -44,7 +44,7 @@ Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and
 * **MOI**: Multiplicity of infection based on varcoding  
 * **MOI_group**: MOI groupings, MOI = 1 or MOI > 1  
 
-This dataset can be used to generate the source data for the following figures and tables:
+This dataset can be used to generate the following figures and tables:
 * **Figures**
   * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
   * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
@@ -77,7 +77,7 @@ PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the
 * **study_id2**: General participant identifier for **mrs_study_id2**  
 * **MOI2**: Multiplicity of infection based on varcoding for **mrs_study_id2** 
 
-This dataset can be used to generate the source data for the following figures:
+This dataset can be used to generate the following figures:
 * **Figures**
   * Figure 2 A (i.e., upsA_PAS_score, plotted by survey_year1)
   * Figure 2 B (i.e., upsBC_PAS_score, plotted by survey_year1)
@@ -91,7 +91,7 @@ Contains the frequency and proportion of all DBLA types in each MRS survey (2012
 * **2012_freq/2014_freq/2015_freq/2017_freq**: Frequency or the number of times (i.e., number of isolates) a DBLα type was observed in each MRS survey (2012, 2014, 2015, and 2017)
 * **2012_freqbin/2014_freqbin/2015_freqbin/2017_freqbin**: Frequency category (i.e., 0, 1, 2-10, 11-20, > 20 isolates) for the DBLα types observed in each MRS survey (2012, 2014, 2015, and 2017)
 
-This dataset can be used to generate the source data for the following figures and tables:
+This dataset can be used to generate the following figures and tables:
 * **Figures**
   * Figure 5 A and B (see Source Data: Fig5_A_B_richness_prev.csv)
   * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
