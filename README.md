@@ -11,11 +11,17 @@ Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos
 Redistribution or reuse of these data requires **proper attribution** and **prior approval**. Researchers interested in further use or collaboration should contact the Malaria Reservoir Study Team, represented by the corresponding author, Prof. Karen Day (karen.day@unimelb.edu.au).
 
 
-## Genotyping Protocols used in this study
+## Genotyping protocols
 
 * _P. falciparum var_ DBLα PCR: [Pfalciparum_varDBLalpha_PCR](https://github.com/UniMelb-Day-Lab/Pfalciparum_varDBLalpha_PCR)
 > Note: This study used version 1 (v1) of DBLαAF and DBLαBR primers. For Version 1 the universal degenerate primers (i.e., forward primer: DBLαAF and reverse primer: DBLαBR) were coupled with a GS FLX Titanium primer sequence (i.e., adaptor). In addition, both the forward and reverse primers were barcoded with a unique 10 bp multiplex identifier (MID) tag ([Roche, 2009](https://www.scribd.com/doc/316505708/The-GS-FLX-Titanium-Chemistry-Extended-MID-Set-Copia)) for multiplexed sequencing.
 
+## Sequence analysis 
+* Raw DBLα sequence tags were cleaned, clustered, and classified (upsA and non-upsA) using the following bioinformatic pipelines:
+ * [DBLaCleaner](https://github.com/UniMelb-Day-Lab/DBLaCleaner)
+ * [clusterDBLalpha](https://github.com/UniMelb-Day-Lab/clusterDBLalpha)
+ * [classifyDBLalpha](https://github.com/UniMelb-Day-Lab/classifyDBLalpha)
+> For additional information on the use of these bioinformatic pipelines a detailed tutorial is available [tutorialDBLalpha](https://github.com/UniMelb-Day-Lab/tutorialDBLalpha).
 
 
 ## Data files: Descriptions
