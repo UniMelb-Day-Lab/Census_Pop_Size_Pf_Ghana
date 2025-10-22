@@ -5,7 +5,7 @@
 All data associated with this study are available in the accompanying GitHub repository (Census_Pop_Size_Pf_Ghana) and are provided for **non-commercial research purposes only**.
 
 If you use data from this work, please cite:
-Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos DC, Deed SL, Ghansah A, Bangre O, Oduro AR, Koram KA, Pascual M, Day KP. (2025) Measuring changes in _Plasmodium falciparum_ census population size in response to sequential malaria control interventions. eLife 12: RP91411 [https://elifesciences.org/reviewed-preprints/91411v3](https://doi.org/10.7554/eLife.91411.3)
+_Tiedje KE, Zhan Q, Ruybal-Pésantez S, Tonkin-Hill G, He Q, Tan MH, Argyropoulos DC, Deed SL, Ghansah A, Bangre O, Oduro AR, Koram KA, Pascual M, Day KP. (2025) Measuring changes in _Plasmodium falciparum_ census population size in response to sequential malaria control interventions. eLife 12: RP91411 [https://elifesciences.org/reviewed-preprints/91411v3](https://doi.org/10.7554/eLife.91411.3)_
 
 
 Redistribution or reuse of these data requires **proper attribution** and **prior approval**. Researchers interested in further use or collaboration should contact the Malaria Reservoir Study Team, represented by the corresponding author, Prof. Karen Day (karen.day@unimelb.edu.au).
@@ -23,7 +23,7 @@ Redistribution or reuse of these data requires **proper attribution** and **prio
   * [DBLaCleaner](https://github.com/UniMelb-Day-Lab/DBLaCleaner)
   * [clusterDBLalpha](https://github.com/UniMelb-Day-Lab/clusterDBLalpha)
   * [classifyDBLalpha](https://github.com/UniMelb-Day-Lab/classifyDBLalpha)
-> For additional information on the use of these bioinformatic pipelines a detailed tutorial is available [tutorialDBLalpha](https://github.com/UniMelb-Day-Lab/tutorialDBLalpha).
+> For additional information on the use of these bioinformatic pipelines a detailed tutorial is available: [tutorialDBLalpha](https://github.com/UniMelb-Day-Lab/tutorialDBLalpha).
 
 
 
@@ -36,7 +36,7 @@ Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and
 * **mrs_study_id**: Unique identifier of isolate sent for DBLa sequencing  
 * **age_groups**: Age group of participant  
 * **pf_positive**: Microscopic *P. falciparum* status (i.e., Para+ = Pf positive; Para− = Pf negative)  
-* **ParasiteuL**: Microscopic *P. falciparum* density (parasites/μL of blood)  
+* **ParasiteuL**: Microscopic *P. falciparum* density (i.e., parasites per μL of blood)  
 * **DBLa_ParaPos**: DBLa sequencing success for all isolates positive for *P. falciparum* by microscopy  
 * **DBLa_rep_size**: Total number of DBLα types detected for the isolate (i.e., repertoire size)  
 * **DBLa_upsA_rep_size**: Total number of upsA DBLα types (i.e., upsA repertoire size)  
@@ -48,7 +48,7 @@ This dataset can be used to generate the source data for the following figures a
 * **Figures**
   * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
   * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
-  * Figure 3 - figure supplement 1 (i.e.,DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
+  * Figure 3 - figure supplement 1 (i.e., DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
   * Figure 4 A (see Source Data: Fig4_A_all_census.csv)
   * Figure 4 B (see Source Data: Fig4_B_age_census.csv)
   * Figure 4 C (see Source Data: Fig4_C_all_prev_census.csv)
@@ -76,9 +76,9 @@ PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the
 
 This dataset can be used to generate the source data for the following figures:
 * **Figures**
-  * Figure 2 A (i.e.,upsA_PAS_score, plotted by survey_year1)
-  * Figure 2 B (i.e.,upsBC_PAS_score, plotted by survey_year1)
-  * Figure 2 - figure supplement 1 (i.e.,upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
+  * Figure 2 A (i.e., upsA_PAS_score, plotted by survey_year1)
+  * Figure 2 B (i.e., upsBC_PAS_score, plotted by survey_year1)
+  * Figure 2 - figure supplement 1 (i.e., upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
 
 
 ### MRS_eLife_DBLatypes_201025.csv
@@ -97,6 +97,6 @@ This dataset can be used to generate the source data for the following figures a
   * Figure 6 - figure supplement 1 (i.e., frequency of 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. proportion, by Ups)
 
 * **Tables**
-  * Appendix 1-table 3 (also see Source Data: Fig5_A_B_richness_prev.csv)
+  * Appendix 1-table 3 (in addition see Source Data: Fig5_A_B_richness_prev.csv)
 
 
