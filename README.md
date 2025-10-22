@@ -48,7 +48,10 @@ This dataset can be used to generate the source data for the following figures a
 * **Figures**
   * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
   * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
+  * Figure 3 A (see Source Data: )
+  * Figure 3 B (see Source Data: )
   * Figure 3 - figure supplement 1 (i.e., DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
+  * Figure 3 - figure supplement 2 (see Source Data: )
   * Figure 4 A (see Source Data: Fig4_A_all_census.csv)
   * Figure 4 B (see Source Data: Fig4_B_age_census.csv)
   * Figure 4 C (see Source Data: Fig4_C_all_prev_census.csv)
