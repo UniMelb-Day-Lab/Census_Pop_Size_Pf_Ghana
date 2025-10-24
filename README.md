@@ -39,8 +39,8 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 ## MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). This dataset includes de-identified information from individual survey participants in each MRS survey.
 * **survey_year**: Survey year during which the participants were surveyed  
-* **study_id**: General participant identifier  
-* **mrs_study_id**: Unique identifier of isolate sent for DBLa sequencing  
+* **study_id**: General study participant ID  
+* **mrs_study_id**: Unique study participant ID of isolate sent for DBLa sequencing  
 * **age_groups**: Age group of participant  
 * **pf_positive**: Microscopic *P. falciparum* status (i.e., Para+ = Pf positive; Para− = Pf negative)  
 * **ParasiteuL**: Microscopic *P. falciparum* density (i.e., parasites per μL of blood)  
@@ -72,16 +72,16 @@ This dataset represents the underlying source data used to generate the figures 
 This dataset contains the estimated genetic similarity between all pairs of _P. falciaparum_ isolates derived from participants in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS). This dataset includes relevant de-identified information from individual survey participants.
 
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
-* **mrs_study_id1**: Unique identifier of isolate sent for DBLa sequencing  
-* **mrs_study_id2**: Unique identifier of isolate sent for DBLa sequencing  
+* **mrs_study_id1**: Unique study participant ID of isolate sent for DBLa sequencing  
+* **mrs_study_id2**: Unique study participant ID of isolate sent for DBLa sequencing  
 * **PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (all DBLα types)  
 * **upsA_PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (upsA DBLα types)  
 * **upsBC_PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (non-upsA DBLα types)  
 * **survey_year1**: Survey year for **mrs_study_id1**  
-* **study_id1**: General participant identifier for **mrs_study_id1**  
+* **study_id1**: General study participant ID for **mrs_study_id1**  
 * **MOI1**: Multiplicity of infection based on varcoding for **mrs_study_id1**  
 * **survey_year2**: Survey year for **mrs_study_id2**  
-* **study_id2**: General participant identifier for **mrs_study_id2**  
+* **study_id2**: General study participant ID for **mrs_study_id2**  
 * **MOI2**: Multiplicity of infection based on varcoding for **mrs_study_id2** 
 
 This dataset represents the underlying source data used to generate the figures listed below.
