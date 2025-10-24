@@ -36,7 +36,7 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 
 ## Data files: Descriptions
 
-## * MRS_eLife_Metadata_201025.csv
+## MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). This dataset includes de-identified information from individual survey participants in each MRS survey.
 * **survey_year**: Survey year during which the participants were surveyed  
 * **study_id**: General participant identifier  
