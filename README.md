@@ -105,7 +105,7 @@ This dataset represents the underlying source data used to generate the figures 
   * Figure 6 - figure supplement 1 (i.e., frequency of 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. proportion, by Ups)
 
 * **Tables**
-  * Appendix 1-table 3 (in addition see Source Data: Fig5_A_B_richness_prev.csv)
+  * Appendix 1-table 3 (in addition see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig5_A_B_richness_prev.csv)
 
 
 
