@@ -40,11 +40,11 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). This dataset includes de-identified information from individual survey participants in each MRS survey.
 * **survey_year**: Survey year during which the participants were surveyed  
 * **study_id**: General study participant ID  
-* **mrs_study_id**: Unique study participant ID of isolate sent for DBLa sequencing  
+* **mrs_study_id**: Unique study participant ID of isolate sent for DBLα sequencing  
 * **age_groups**: Age group of participant  
 * **pf_positive**: Microscopic *P. falciparum* status (i.e., Para+ = Pf positive; Para− = Pf negative)  
 * **ParasiteuL**: Microscopic *P. falciparum* density (i.e., parasites per μL of blood)  
-* **DBLa_ParaPos**: DBLa sequencing success for all isolates positive for *P. falciparum* by microscopy  
+* **DBLa_ParaPos**: DBLα sequencing success for all isolates positive for *P. falciparum* by microscopy  
 * **DBLa_rep_size**: Total number of DBLα types detected for the isolate (i.e., repertoire size)  
 * **DBLa_upsA_rep_size**: Total number of upsA DBLα types (i.e., upsA repertoire size)  
 * **DBLa_upsBC_rep_size**: Total number of non-upsA DBLα types (i.e., non-upsA repertoire size)  
@@ -72,17 +72,17 @@ This dataset represents the underlying source data used to generate the figures 
 This dataset contains the estimated genetic similarity between all pairs of _P. falciaparum_ isolates derived from participants in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS). This dataset includes relevant de-identified information from individual survey participants.
 
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
-* **mrs_study_id1**: Unique study participant ID of isolate sent for DBLa sequencing  
-* **mrs_study_id2**: Unique study participant ID of isolate sent for DBLa sequencing  
-* **PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (all DBLα types)  
-* **upsA_PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (upsA DBLα types)  
-* **upsBC_PAS_score**: PTS score between **mrs_study_id1** and **mrs_study_id2** (non-upsA DBLα types)  
+* **mrs_study_id1**: Unique study participant ID of isolate sent for DBLα sequencing  
+* **mrs_study_id2**: Unique study participant ID of isolate sent for DBLα sequencing  
+* **PAS_score**: PTS score between mrs_study_id1 and **mrs_study_id2 (i.e., all DBLα types)  
+* **upsA_PAS_score**: upsA PTS score between mrs_study_id1 and **mrs_study_id2 (i.e., upsA DBLα types)  
+* **upsBC_PAS_score**: non-upsA PTS score between mrs_study_id1 and **mrs_study_id2 (i.e., non-upsA DBLα types)  
 * **survey_year1**: Survey year for **mrs_study_id1**  
-* **study_id1**: General study participant ID for **mrs_study_id1**  
-* **MOI1**: Multiplicity of infection based on varcoding for **mrs_study_id1**  
-* **survey_year2**: Survey year for **mrs_study_id2**  
-* **study_id2**: General study participant ID for **mrs_study_id2**  
-* **MOI2**: Multiplicity of infection based on varcoding for **mrs_study_id2** 
+* **study_id1**: General study participant ID for mrs_study_id1
+* **MOI1**: Multiplicity of infection based on varcoding for mrs_study_id1  
+* **survey_year2**: Survey year for mrs_study_id2  
+* **study_id2**: General study participant ID for mrs_study_id2
+* **MOI2**: Multiplicity of infection based on varcoding for mrs_study_id2 
 
 This dataset represents the underlying source data used to generate the figures listed below.
 * **Figures**
@@ -92,7 +92,7 @@ This dataset represents the underlying source data used to generate the figures 
 
 
 ## MRS_eLife_DBLatypes_201025.csv
-Contains the frequency and proportion of all DBLA types in each MRS survey (2012, 2014, 2015, and 2017). 
+Contains the frequency and proportion of all DBLα types in each MRS survey (2012, 2014, 2015, and 2017). 
 * **DBLa_type**: DBLα type
 * **Ups**: DBLα type ups group (i.e., A = upsA and BC = non-upsA)
 * **2012_freq/2014_freq/2015_freq/2017_freq**: Frequency or the number of times (i.e., number of isolates) a DBLα type was observed in each MRS survey (2012, 2014, 2015, and 2017)
