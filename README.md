@@ -37,7 +37,7 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 ## Data files: Descriptions
 
 ### MRS_eLife_Metadata_201025.csv
-Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017).  
+Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). These data include de-identified information from individual survey participants in each MRS survey.
 * **survey_year**: Survey year during which the participants were surveyed  
 * **study_id**: General participant identifier  
 * **mrs_study_id**: Unique identifier of isolate sent for DBLa sequencing  
@@ -51,7 +51,7 @@ Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and
 * **MOI**: Multiplicity of infection based on varcoding  
 * **MOI_group**: MOI groupings, MOI = 1 or MOI > 1  
 
-This dataset can be used to generate the following figures and tables:
+This dataset represents the underlying source data used to generate the figures and tables listed below. In addition, we have provided supplementary source data files derived from this dataset for specific figures and tables where relevant.
 * **Figures**
   * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
   * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
@@ -70,7 +70,7 @@ This dataset can be used to generate the following figures and tables:
 
 
 ### MRS_eLife_PTS_201025.csv
-Contains the estimated genetic similarity between all pairs of isolates in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS).
+This dataset contains the estimated genetic similarity between all pairs of _P. falciaparum_ isolates derived from participants in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS). These data include de-identified information from individual survey participants.
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
 * **mrs_study_id1**: Unique identifier of isolate sent for DBLa sequencing  
 * **mrs_study_id2**: Unique identifier of isolate sent for DBLa sequencing  
@@ -84,7 +84,7 @@ PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the
 * **study_id2**: General participant identifier for **mrs_study_id2**  
 * **MOI2**: Multiplicity of infection based on varcoding for **mrs_study_id2** 
 
-This dataset can be used to generate the following figures:
+This dataset represents the underlying source data used to generate the figures listed below.
 * **Figures**
   * Figure 2 A (i.e., upsA_PAS_score, plotted by survey_year1)
   * Figure 2 B (i.e., upsBC_PAS_score, plotted by survey_year1)
@@ -97,8 +97,8 @@ Contains the frequency and proportion of all DBLA types in each MRS survey (2012
 * **Ups**: DBLα type ups group (i.e., A = upsA and BC = non-upsA)
 * **2012_freq/2014_freq/2015_freq/2017_freq**: Frequency or the number of times (i.e., number of isolates) a DBLα type was observed in each MRS survey (2012, 2014, 2015, and 2017)
 * **2012_freqbin/2014_freqbin/2015_freqbin/2017_freqbin**: Frequency category (i.e., 0, 1, 2-10, 11-20, > 20 isolates) for the DBLα types observed in each MRS survey (2012, 2014, 2015, and 2017)
-
-This dataset can be used to generate the following figures and tables:
+  
+This dataset represents the underlying source data used to generate the figures and tables listed below. In addition, we have provided supplementary source data files derived from this dataset for specific figures and tables where relevant.
 * **Figures**
   * Figure 5 A and B (see Source Data: Fig5_A_B_richness_prev.csv)
   * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
