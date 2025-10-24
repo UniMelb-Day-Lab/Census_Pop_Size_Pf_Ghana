@@ -60,8 +60,6 @@ This dataset represents the underlying source data used to generate the figures 
   * Figure 4 B (see Source Data: Fig4_B_age_census.csv)
   * Figure 4 C (see Source Data: Fig4_C_all_prev_census.csv)
   * Figure 4 D (see Source Data: Fig4_D_age_prev_census.csv)
- 
-    
   * Appendix 1-Figure 1 (see Source Data: Appendix1_Fig1_meanMOI_subsampling.csv)
   * Appendix 1-Figure 4 (see Source Data: Appendix1_Fig4_measurementError.csv) 
 
