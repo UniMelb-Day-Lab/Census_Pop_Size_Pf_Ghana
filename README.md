@@ -79,16 +79,14 @@ PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the
 * **upsBC_PAS_score**: non-upsA PTS score between mrs_study_id1 and **mrs_study_id2 (i.e., non-upsA DBLα types)  
 * **survey_year1**: Survey year for **mrs_study_id1**  
 * **study_id1**: General study participant ID for mrs_study_id1
-* **MOI1**: Multiplicity of infection based on varcoding for mrs_study_id1  
 * **survey_year2**: Survey year for mrs_study_id2  
-* **study_id2**: General study participant ID for mrs_study_id2
-* **MOI2**: Multiplicity of infection based on varcoding for mrs_study_id2 
+* **study_id2**: General study participant ID for mrs_study_id2 
 
 This dataset represents the underlying source data used to generate the figures listed below.
 * **Figures**
   * Figure 2 A (i.e., upsA_PAS_score, plotted by survey_year1)
   * Figure 2 B (i.e., upsBC_PAS_score, plotted by survey_year1)
-  * Figure 2 - figure supplement 1 (i.e., upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
+  * Figure 2 - figure supplement 1 (see Source Data: MRS_eLife_PTS_MOI1_201025.csv; PTS between all pairs of isoaltes with an MOI = 1)
 
 
 ## MRS_eLife_DBLatypes_201025.csv
