@@ -48,21 +48,21 @@ Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and
 * **DBLa_rep_size**: Total number of DBLα types detected for the isolate (i.e., repertoire size)  
 * **DBLa_upsA_rep_size**: Total number of upsA DBLα types (i.e., upsA repertoire size)  
 * **DBLa_upsBC_rep_size**: Total number of non-upsA DBLα types (i.e., non-upsA repertoire size)  
-* **MOI**: Multiplicity of infection based on varcoding  
-* **MOI_group**: MOI groupings, MOI = 1 or MOI > 1  
 
 This dataset represents the underlying source data used to generate the figures and tables listed below. In addition, we have provided supplementary source data files derived from this dataset for specific figures and tables where relevant.
 * **Figures**
   * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
   * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
-  * Figure 3 A (see Source Data: )
-  * Figure 3 B (see Source Data: )
+  * Figure 3 A & B (see Source Data: Fig3_MOI_estimation_pool.csv)
   * Figure 3 - figure supplement 1 (i.e., DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
-  * Figure 3 - figure supplement 2 (see Source Data: )
+  * Figure 3 - figure supplement 2 (see Source Data: Fig3_S2_MOI_estimation_mixtureDist.csv)
   * Figure 4 A (see Source Data: Fig4_A_all_census.csv)
   * Figure 4 B (see Source Data: Fig4_B_age_census.csv)
   * Figure 4 C (see Source Data: Fig4_C_all_prev_census.csv)
   * Figure 4 D (see Source Data: Fig4_D_age_prev_census.csv)
+    
+  * Appendix 1-Figure 1 (see Source Data: Appendix1_Fig1_meanMOI_subsampling.csv)
+  * Appendix 1-Figure 4 (see Source Data: Appendix1_Fig4_measurementError.csv) 
 
 * **Tables**
   * Appendix 1-table 1
