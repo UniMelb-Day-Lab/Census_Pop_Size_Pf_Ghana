@@ -36,7 +36,7 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 
 ## Data files: Descriptions
 
-### MRS_eLife_Metadata_201025.csv
+## MRS_eLife_Metadata_201025.csv
 Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). These data include de-identified information from individual survey participants in each MRS survey.
 * **survey_year**: Survey year during which the participants were surveyed  
 * **study_id**: General participant identifier  
@@ -69,8 +69,9 @@ This dataset represents the underlying source data used to generate the figures 
   * Appendix 1-table 2
 
 
-### MRS_eLife_PTS_201025.csv
+## MRS_eLife_PTS_201025.csv
 This dataset contains the estimated genetic similarity between all pairs of _P. falciaparum_ isolates derived from participants in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS). These data include de-identified information from individual survey participants.
+
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
 * **mrs_study_id1**: Unique identifier of isolate sent for DBLa sequencing  
 * **mrs_study_id2**: Unique identifier of isolate sent for DBLa sequencing  
@@ -91,7 +92,7 @@ This dataset represents the underlying source data used to generate the figures 
   * Figure 2 - figure supplement 1 (i.e., upsA_PAS_score vs. survey_year1 and upsBC_PAS_score vs. survey_year1; selecting MOI1 =1 and MOI2 = 1)
 
 
-### MRS_eLife_DBLatypes_201025.csv
+## MRS_eLife_DBLatypes_201025.csv
 Contains the frequency and proportion of all DBLA types in each MRS survey (2012, 2014, 2015, and 2017). 
 * **DBLa_type**: DBLα type
 * **Ups**: DBLα type ups group (i.e., A = upsA and BC = non-upsA)
