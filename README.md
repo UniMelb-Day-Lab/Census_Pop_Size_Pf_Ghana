@@ -51,17 +51,17 @@ Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and
 
 This dataset represents the underlying source data used to generate the figures and tables listed below. In addition, we have provided supplementary source data files derived from this dataset for specific figures and tables where relevant.
 * **Figures**
-  * Figure 1 B (see Source Data: Fig1_B_all_prev.csv)
-  * Figure 1 C (see Source Data: Fig1_C_age_prev.csv)
-  * Figure 3 A & B (see Source Data: Fig3_MOI_estimation_pool.csv)
+  * Figure 1 B (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig1_B_all_prev.csv)
+  * Figure 1 C (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig1_C_age_prev.csv)
+  * Figure 3 A & B (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig3_MOI_estimation_pool.csv)
   * Figure 3 - figure supplement 1 (i.e., DBLa_upsA_rep_size and DBLa_upsBC_rep_size vs. survey_year)
-  * Figure 3 - figure supplement 2 (see Source Data: Fig3_S2_MOI_estimation_mixtureDist.csv)
-  * Figure 4 A (see Source Data: Fig4_A_all_census.csv)
-  * Figure 4 B (see Source Data: Fig4_B_age_census.csv)
-  * Figure 4 C (see Source Data: Fig4_C_all_prev_census.csv)
-  * Figure 4 D (see Source Data: Fig4_D_age_prev_census.csv)
-  * Appendix 1-Figure 1 (see Source Data: Appendix1_Fig1_meanMOI_subsampling.csv)
-  * Appendix 1-Figure 4 (see Source Data: Appendix1_Fig4_measurementError.csv) 
+  * Figure 3 - figure supplement 2 (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig3_S2_MOI_estimation_mixtureDist.csv)
+  * Figure 4 A (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig4_A_all_census.csv)
+  * Figure 4 B (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig4_B_age_census.csv)
+  * Figure 4 C (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig4_C_all_prev_census.csv)
+  * Figure 4 D (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig4_D_age_prev_census.csv)
+  * Appendix 1-Figure 1 (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Appendix1_Fig1_meanMOI_subsampling.csv)
+  * Appendix 1-Figure 4 (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Appendix1_Fig4_measurementError.csv) 
 
 * **Tables**
   * Appendix 1-table 1
@@ -86,7 +86,7 @@ This dataset represents the underlying source data used to generate the figures 
 * **Figures**
   * Figure 2 A (i.e., upsA_PAS_score, plotted by survey_year1)
   * Figure 2 B (i.e., upsBC_PAS_score, plotted by survey_year1)
-  * Figure 2 - figure supplement 1 (see Source Data: MRS_eLife_PTS_MOI1_201025.csv; PTS between all pairs of isoaltes with an MOI = 1)
+  * Figure 2 - figure supplement 1 (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): MRS_eLife_PTS_MOI1_201025.csv; PTS between all pairs of isoaltes with an MOI = 1)
 
 
 ## MRS_eLife_DBLatypes_201025.csv
@@ -98,7 +98,7 @@ Contains the frequency and proportion of all DBLα types in each MRS survey (201
   
 This dataset represents the underlying source data used to generate the figures and tables listed below. In addition, we have provided supplementary source data files derived from this dataset for specific figures and tables where relevant.
 * **Figures**
-  * Figure 5 A and B (see Source Data: Fig5_A_B_richness_prev.csv)
+  * Figure 5 A and B (see [Sourve Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): Fig5_A_B_richness_prev.csv)
   * Figure 6 A and B (i.e., 2012_freq, 2014_freq, 2015_freq, and 2017_freq vs. DBLa_type, by Ups)
   * Figure 6 C and D (i.e., 2012_freqbin, 2014_freqbin, 2015_freqbin, and 2017_freqbin vs. DBLa_type, by Ups)
   * Figure 6 E and F (i.e., survival curves include only those DBLα types that were seen at baseline in 2012 (2012_freq; 2012freq_bin category))
