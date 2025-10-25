@@ -36,7 +36,7 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 
 ## Data files: Descriptions
 
-## MRS_eLife_Metadata_201025.csv
+## MRS_eLife_Metadata.csv
 Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). This dataset includes de-identified information from individual survey participants in each MRS survey (see [Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data)).
 * **survey_year**: Survey year during which the participants were surveyed  
 * **study_id**: General study participant ID  
@@ -68,7 +68,7 @@ This dataset represents the underlying source data used to generate the figures 
   * Appendix 1-table 2
 
 
-## MRS_eLife_PTS_201025.csv
+## MRS_eLife_PTS.csv
 This dataset contains the estimated genetic similarity between all pairs of _P. falciaparum_ isolates derived from participants in each MRS survey (2012, 2014, 2015, and 2017), based on parwise type sharing (PTS). This dataset includes relevant de-identified information from individual survey participants (see [Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data)).
 
 PTS, analogous to the Sørensen Index, is a similarity statistic to evaluate the proportion of DBLα types shared between two isolate repertoires (i.e., DBLα repertoire overlap) and ranges from 0 (i.e., no DBLα repertoire overlap) to 1 (i.e., identical DBLα isolate repertoires).
@@ -86,10 +86,10 @@ This dataset represents the underlying source data used to generate the figures 
 * **Figures**
   * Figure 2 A (i.e., upsA_PAS_score, plotted by survey_year1)
   * Figure 2 B (i.e., upsBC_PAS_score, plotted by survey_year1)
-  * Figure 2 - figure supplement 1 (see [Source Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): MRS_eLife_PTS_MOI1_201025.csv; PTS between all pairs of isoaltes with an MOI = 1)
+  * Figure 2 - figure supplement 1 (see [Source Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data/source_data): MRS_eLife_PTS_MOI1.csv; PTS between all pairs of isoaltes with an MOI = 1)
 
 
-## MRS_eLife_DBLatypes_201025.csv
+## MRS_eLife_DBLatypes.csv
 Contains the frequency and proportion of all DBLα types in each MRS survey (2012, 2014, 2015, and 2017) (see [Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data)).
 * **DBLa_type**: DBLα type
 * **Ups**: DBLα type ups group (i.e., A = upsA and BC = non-upsA)
