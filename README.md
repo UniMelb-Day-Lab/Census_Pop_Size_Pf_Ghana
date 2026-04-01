@@ -39,8 +39,8 @@ The study was reviewed/approved by the ethics committees at the Navrongo Health 
 ## MRS_eLife_Metadata.csv
 Metadata for all participants surveyed in each MRS survey (2012, 2014, 2015, and 2017). This dataset includes de-identified information from individual survey participants in each MRS survey (see [Data](https://github.com/UniMelb-Day-Lab/Census_Pop_Size_Pf_Ghana/tree/main/data)).
 * **survey_year**: Survey year during which the participants were surveyed  
-* **study_id**: General study participant ID  
-* **mrs_study_id**: Unique study participant ID of isolate sent for DBLα sequencing  
+* **study_id**: Participant study ID  
+* **mrs_study_id**: Unique participant study ID of isolate sent for DBLα sequencing  
 * **age_groups**: Age group of participant  
 * **pf_positive**: Microscopic *P. falciparum* status (i.e., Para+ = Pf positive; Para− = Pf negative)  
 * **ParasiteuL**: Microscopic *P. falciparum* density (i.e., parasites per μL of blood)  
